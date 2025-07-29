@@ -1,0 +1,44 @@
+{
+  "peace": {
+    "name": "Victory-Zeichen",
+    "sound_file": "victory.wav",
+    "cooldown": 2.0,
+    "confidence_threshold": 0.8,
+    "enabled": true
+  },
+  "middle_finger": {
+    "name": "Mittelfinger",
+    "sound_file": "middle_finger.wav",
+    "cooldown": 3.0,
+    "confidence_threshold": 0.8,
+    "enabled": true
+  },
+  "thumbs_up": {
+    "name": "Daumen hoch",
+    "sound_file": "thumbs_up.wav",
+    "cooldown": 2.0,
+    "confidence_threshold": 0.8,
+    "enabled": true
+  },
+  "ok_sign": {
+    "name": "OK-Zeichen",
+    "sound_file": "ok.wav",
+    "cooldown": 2.0,
+    "confidence_threshold": 0.8,
+    "enabled": true
+  },
+  "pointing": {
+    "name": "Zeigen",
+    "sound_file": "point.wav",
+    "cooldown": 1.5,
+    "confidence_threshold": 0.8,
+    "enabled": true
+  },
+  "rock": {
+    "name": "Faust",
+    "sound_file": "punch.wav",
+    "cooldown": 2.0,
+    "confidence_threshold": 0.8,
+    "enabled": true
+  }
+}

@@ -1,10 +1,31 @@
 # Hand Tracking Programme
 
-Dieses Verzeichnis enthält zwei Python-Programme für Hand-Tracking mit der Webcam.
+Dieses Verzeichnis enthält Python-Programme für Hand-Tracking und Gesten-Erkennung mit der Webcam.
 
-## Programme
+## 🎯 Programme
 
-### 1. `hand_tracking.py` - Einfaches Hand-Tracking
+### 1. `gesture_sound_bot.py` - 🆕 Gesten-Sound-Bot für Discord
+
+**Das Hauptprogramm!** Ein fortschrittlicher Bot, der Handgesten erkennt und entsprechende Sounds in Discord-Calls abspielt.
+
+**Features:**
+
+- ✌️ Erkennt 6+ verschiedene Handgesten (Victory, Mittelfinger, Daumen hoch, etc.)
+- 🔊 Spielt Sounds über virtuelles Mikrofon in Discord ab
+- 🎮 Einfache Steuerung und Konfiguration
+- 🔧 Erweiterbar für neue Gesten und Sounds
+- 📱 Live-Vorschau mit Status-Anzeige
+
+**Erkannte Gesten:**
+
+- Victory-Zeichen ✌️
+- Mittelfinger 🖕
+- Daumen hoch 👍
+- OK-Zeichen 👌
+- Zeigen 👉
+- Faust 👊
+
+### 2. `hand_tracking.py` - Einfaches Hand-Tracking
 
 Ein grundlegendes Hand-Tracking-Programm mit folgenden Features:
 
@@ -12,7 +33,7 @@ Ein grundlegendes Hand-Tracking-Programm mit folgenden Features:
 - Bewegungsspur der Hand
 - Einfache Kalibrierung
 
-### 2. `advanced_hand_tracking.py` - Erweiterte Version
+### 3. `advanced_hand_tracking.py` - Erweiterte Version
 
 Eine verbesserte Version mit zusätzlichen Features:
 
@@ -21,27 +42,77 @@ Eine verbesserte Version mit zusätzlichen Features:
 - Verschiedene Visualisierungsmodi
 - Fingerspitzen-Erkennung
 
-## Installation
+## 🚀 Schnellstart (Gesten-Sound-Bot)
 
-1. Stelle sicher, dass Python 3.13 installiert ist
-2. Installiere die benötigten Pakete:
-   ```
-   pip install opencv-python numpy
-   ```
-
-## Verwendung
-
-### Einfache Version starten:
+### Automatische Installation:
 
 ```bash
-python hand_tracking.py
+# 1. Installation ausführen
+install.bat
+
+# 2. Bot starten
+start_bot.bat
 ```
 
-### Erweiterte Version starten:
+### Manuelle Installation:
 
 ```bash
-python advanced_hand_tracking.py
+# 1. Pakete installieren
+pip install -r requirements.txt
+
+# 2. System testen
+python test_system.py
+
+# 3. Bot starten
+python gesture_sound_bot.py
 ```
+
+## 📋 Anforderungen für Gesten-Sound-Bot
+
+### Software:
+
+- Python 3.8+
+- VB-Audio Cable (für Discord-Integration)
+- Webcam
+
+### Hardware:
+
+- Webcam (720p+ empfohlen)
+- Mikrofon-fähiges System
+- Gute Beleuchtung
+
+## 🎵 Discord-Setup
+
+1. **VB-Audio Cable installieren:**
+
+   - Download: https://vb-audio.com/Cable/
+   - Nach Installation: Computer neu starten
+
+2. **Discord konfigurieren:**
+
+   - Einstellungen → Sprache & Video
+   - Mikrofon: "CABLE Input (VB-Audio Virtual Cable)" wählen
+
+3. **Sounds hinzufügen:**
+   - Sound-Dateien in `sounds/` Ordner legen
+   - Unterstützte Formate: `.wav`, `.mp3`, `.ogg`
+
+## 🎮 Verwendung
+
+### Gesten-Sound-Bot:
+
+```bash
+python gesture_sound_bot.py
+```
+
+**Steuerung:**
+
+- `Q` - Beenden
+- `S` - Sound ein/ausschalten
+- `G` - Verfügbare Gesten anzeigen
+- `C` - Konfiguration (zukünftig)
+
+### Klassische Hand-Tracking Programme:
 
 ## Steuerung
 

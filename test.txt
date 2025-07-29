@@ -1,0 +1,6 @@
+📋 Nächste Schritte:
+install.bat ausführen (installiert alles automatisch)
+VB-Audio Cable von https://vb-audio.com/Cable/ installieren
+Sound-Dateien in sounds Ordner hinzufügen
+start_bot.bat ausführen und los geht's!
+Das System läuft im Hintergrund und spielt automatisch Sounds über das virtuelle Mikrofon ab, sodass sie in Discord-Calls hörbar sind. Perfekt für Gaming, Streaming oder einfach zum Spaß haben! 🎮
